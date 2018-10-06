@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	m "github.com/Boostport/migration"
-	"github.com/Boostport/migration/parser"
+	m "github.com/3dsinteractive/migration"
+	"github.com/3dsinteractive/migration/parser"
 	"github.com/mattn/go-sqlite3"
 )
 

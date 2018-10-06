@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	m "github.com/Boostport/migration"
+	m "github.com/3dsinteractive/migration"
 )
 
 type Config struct {

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Boostport/migration/parser"
+	"github.com/3dsinteractive/migration/parser"
 	"github.com/gobuffalo/packr"
 )
 
@@ -202,7 +202,7 @@ func TestPackrMigrationSource(t *testing.T) {
 
 	assetMigration := &PackrMigrationSource{
 		Box: packr.NewBox("."),
-		Dir:      "test-migrations",
+		Dir: "test-migrations",
 	}
 
 	driver := getMockDriver()

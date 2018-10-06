@@ -1,4 +1,4 @@
-module github.com/Boostport/migration
+module github.com/3dsinteractive/migration
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.3.0

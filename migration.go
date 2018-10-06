@@ -1,20 +1,14 @@
 package migration
 
 import (
-"bytes"
-"fmt"
-"io/ioutil"
-"regexp"
-"sort"
-"strconv"
+	"bytes"
+	"fmt"
+	"io/ioutil"
+	"regexp"
+	"sort"
+	"strconv"
 
-
-
-
-
-
-
-"github.com/Boostport/migration/parser"
+	"github.com/3dsinteractive/migration/parser"
 )
 
 type Direction int

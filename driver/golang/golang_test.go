@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Boostport/migration"
+	"github.com/3dsinteractive/migration"
 )
 
 func TestGolangDriver(t *testing.T) {
